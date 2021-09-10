@@ -1,5 +1,5 @@
 import React from "react"
-import Video from "./bbb.mp4"
+import Video from "../../bbb.mp4"
 import Typed from "react-typed"
 function Header() {
   return (
