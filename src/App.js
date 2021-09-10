@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+import NavBar from "./components/Navbar"
+import Header from "./components/Header"
+import Particles from "react-particles-js"
+import AboutMe from "./components/AboutMe"
+import Services from "./components/Services"
+import Experience from "./components/Experince"
+import Pofrfolio from "./components/Protfolio"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Particles
+        className="particles"
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900,
+              },
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#f9ab00",
+              },
+            },
+          },
+        }}
+      />
+      <NavBar />
+      <Header />
+      <AboutMe />
+      <Services />
+      <Experience />
+      <Pofrfolio />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
