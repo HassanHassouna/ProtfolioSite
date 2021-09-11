@@ -7,6 +7,9 @@ import AboutMe from "./components/AboutMe"
 import Services from "./components/Services"
 import Experience from "./components/Experince"
 import Pofrfolio from "./components/Protfolio"
+import Testimonials from "./components/Testimonials"
+import Contacts from "./components/ContectMe"
+import Footer from "./components/Footer"
 function App() {
   return (
     <div className="App">
@@ -37,6 +40,9 @@ function App() {
       <Services />
       <Experience />
       <Pofrfolio />
+      <Testimonials />
+      <Contacts />
+      <Footer />
     </div>
   )
 }

@@ -1,9 +1,11 @@
 import React from "react"
 import Video from "../../bbb.mp4"
 import Typed from "react-typed"
+import { Link, animateScroll as scroll } from "react-scroll"
+
 function Header() {
   return (
-    <div className="header_container">
+    <div id="home" className="header_container">
       <video className="video" autoPlay loop muted>
         <source src={Video} type="video/mp4" />
       </video>
@@ -16,9 +18,16 @@ function Header() {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">
+        <Link
+          smooth={true}
+          to="contacts"
+          offset={-110}
+          F
+          href="#"
+          className="btn-main-offer"
+        >
           contact me
-        </a>
+        </Link>
       </div>
     </div>
   )
