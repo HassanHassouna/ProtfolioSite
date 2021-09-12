@@ -75,6 +75,7 @@ const Contacts = () => {
                   type="text"
                   className="form-control"
                   placeholder="Phone Number"
+                  type="tel"
                   name="phone"
                   ref={register({
                     required: "Please add your phone number",

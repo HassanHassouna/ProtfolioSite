@@ -424,17 +424,18 @@ nav ul li {
   padding-bottom: 8%;
   padding-left: 5%;
   padding-right: 5%;
-  height: 17.875rem;
 }
 
 .myCarousel h3 {
   color: var(--primary-ocean);
+  margin-top:10px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .myCarousel p {
   color: var(--primary-grey);
+  min-width: min-content;
 }
 
 .carousel .slide img {

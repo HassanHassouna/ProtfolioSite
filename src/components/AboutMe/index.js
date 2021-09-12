@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
-            Hello! I am Hassan. I have finished recently an Full Stack Bootcamp
+            Hello! I am Hassan. I have finished recently a Full Stack Bootcamp
             and looking for my first position as a Full Stack Developer.
             Technologies I learned is MERN(MongoDB, Express, ReactJS and
             NodeJS). I create responsive websites that are displayed on all
