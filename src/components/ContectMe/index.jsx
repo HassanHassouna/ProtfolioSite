@@ -72,10 +72,11 @@ const Contacts = () => {
               {/* PHONE INPUT */}
               <div className="text-center">
                 <input
-                  type="text"
+                  type="number"
                   className="form-control"
                   placeholder="Phone Number"
-                  type="tel"
+                  inputMode="numeric"
+                  pattern="[0-9]*"
                   name="phone"
                   ref={register({
                     required: "Please add your phone number",
